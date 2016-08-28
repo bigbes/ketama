@@ -7,9 +7,9 @@ can only be loaded from file.
 
 This implementation can:
 
-1) Load database from file. Use `ketama_servers_read_file` function.
-2) Load database from string. Use `ketama_servers_read_string` function.
-3) Construct it from your code and manipulate it:
+1. Load database from file. Use `ketama_servers_read_file` function.
+2. Load database from string. Use `ketama_servers_read_string` function.
+3. Construct it from your code and manipulate it:
    * `ketama_srv_list_new` - create `ketama_srv_list` structure
    * `ketama_srv_list_append` - append `ketama_srv_info` to server list structure
    * `ketama_srv_list_find` - find id of server (in server list) for deletion
